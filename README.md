@@ -1,6 +1,15 @@
-# Saucedemo Site Automation Testing Assessment   
+# Saucedemo Site Automation Testing Assessment: Locked_Out_User
 
-Feature: Search and Verify Cart
+Feature: 
+Open the login page: https://www.saucedemo.com/
+Enter the following credentials:
+Username: locked_out_user
+Password: secret_sauce
+Click the Login button
+Verify the appearance of the error message
+Expected Text
+Epic sadface: Sorry, this user has been locked out
+
 Testing Scope: UI and Automation Testing 
 
 ## Author
